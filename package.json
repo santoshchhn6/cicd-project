@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
+    "coverage": "jest --coverage",
     "start": "node server.js",
     "lint": "eslint . --max-warnings 0",
     "lint:fix": "eslint . --fix"
